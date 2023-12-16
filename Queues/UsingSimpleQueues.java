@@ -1,6 +1,6 @@
 package Queues;
 
-public class UsingQueues {
+public class UsingSimpleQueues {
     public static void main(String[] args) {
         SimpleCircularQueue queue = new SimpleCircularQueue(5);
 
