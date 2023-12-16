@@ -70,17 +70,13 @@ public class PriorityQueues {
         TopPriorityElement elementToBeDequeued = peek();
         int valueBeingDequeued = elementToBeDequeued.value;
         size--;
-//        if (elementToBeDequeued.index == MAX_SIZE - 1) {
-//            priorityQueue[elementToBeDequeued.index] = null;
-//        }
-            for (int i = elementToBeDequeued.index; i < size; i++) {
-                priorityQueue[i] = priorityQueue[i + 1];
-            }
-//        }
+        for (int i = elementToBeDequeued.index; i < size; i++) {
+            priorityQueue[i] = priorityQueue[i + 1];
+        }
         return valueBeingDequeued;
     }
 
-    private boolean isEmpty(){
+    private boolean isEmpty() {
         return size <= 0;
     }
 
