@@ -1,4 +1,4 @@
-package Queues;
+package Queues.simpleQueues;
 
 public class SimpleCircularQueue {
 

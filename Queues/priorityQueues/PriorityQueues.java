@@ -1,4 +1,4 @@
-package Queues;
+package Queues.priorityQueues;
 
 /**
  * ELEMENT - Class to represent the priority and value of each element in the Priority queue

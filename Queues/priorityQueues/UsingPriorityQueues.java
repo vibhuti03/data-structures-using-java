@@ -1,4 +1,4 @@
-package Queues;
+package Queues.priorityQueues;
 
 public class UsingPriorityQueues {
     public static void main(String[] args) {
